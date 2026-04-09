@@ -19,6 +19,12 @@ install_u280_dev_platform(){
     apt install /tmp/xilinx-u280*.deb
 }
 
+install_dpdk() {
+    cp /share/tools/u280/dpdk.sh /opt/.
+    cd /opt/
+    ./dpdk.sh
+}
+
 install_shellpkg() {
 
 if [[ "$U280" == 0 ]]; then
@@ -183,6 +189,7 @@ install_libs
 # Disable PCIe fatal error reporting
 disable_pcie_fatal_error 
 install_config_fpga
+install_dpdk
 install_u280_dev_platform
 
 if [ "$WORKFLOW" = "Vitis" ] ; then
