@@ -17,8 +17,8 @@ pc = portal.Context()
 request = pc.makeRequestRSpec()
 
 # Pick your image.
-imageList = [('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-u280.pc163.mcs', 'UBUNTU 22.04 + mcs '),
-             ('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.tools', 'UBUNTU 22.04 + mcs + tools')]
+imageList = [('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.tools', 'UBUNTU 22.04 + mcs + tools'),
+             ('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-u280.pc163.mcs', 'UBUNTU 22.04 + mcs ')]
 workflow = ['Vivado']
 
 toolVersion = ['2023.2'] 
