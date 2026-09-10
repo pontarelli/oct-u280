@@ -17,7 +17,8 @@ pc = portal.Context()
 request = pc.makeRequestRSpec()
 
 # Pick your image.
-imageList = [('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.pc170.sept.6.2','UBUNTU 22.04 + bypass con script di configurazione'),
+imageList = [('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.pc170.sept.6.3','UBUNTU 22.04 + bypass con script di configurazione'),
+             #('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.pc170.sept.6.2','UBUNTU 22.04 + bypass con script di configurazione'),
              #('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.pc170.sept','UBUNTU 22.04 + mcs + tools + mcs'),
              #('urn:publicid:IDN+cloudlab.umass.edu+image+octfpga-PG0:oct-280-sp.pc161.tools', 'UBUNTU 22.04 + mcs + tools'),
              # ('urn:publicid:IDN+cloudlab.umass.edu+image+oct-fpga-p4-PG0:oct-p4', 'test'),
